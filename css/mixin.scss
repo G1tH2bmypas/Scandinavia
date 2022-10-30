@@ -1,0 +1,15 @@
+@mixin link($link, $active) {
+	color: $link;
+
+	&:active {
+		color: darken($link, 15%);
+	}
+}
+
+@mixin btn($btn,$active) {
+	background: $btn;
+
+	&:active {
+		background: darken($btn, 4%);
+	}
+}
