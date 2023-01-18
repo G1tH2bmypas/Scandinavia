@@ -62,7 +62,11 @@ body {
   font-size: 28px;
   font-family: 'Playfair Display SC', serif;
   color: #9e9e8e;
-  text-shadow: 0 0 1.5px #9e9e8e; }
+  text-shadow: 0 0 1.5px black; }
+
+.nav__icon:hover {
+	text-shadow: 0 0 7.5px black;
+}
 
 .nav__list {
   font-size: 18px;
